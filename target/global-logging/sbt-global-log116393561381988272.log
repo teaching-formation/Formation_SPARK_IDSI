@@ -1,0 +1,123 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 1.8.0_292)
+[debug]       Load.loadUnit: plugins took 124.720597ms
+[debug]       Load.loadUnit: defsScala took 0.353869ms
+[debug] [Loading] Scanning directory /Users/diakite/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/diakite/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 29.325325 ms
+[debug]           Load.resolveProject(global-plugins) took 79.608315ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/diakite/.sbt/1.0/plugins, plugins: List(<none>))) took 150.541625ms
+[debug] [Loading] Done in /Users/diakite/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 183.390484ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.346694ms
+[debug]     Load.loadUnit(file:/Users/diakite/.sbt/1.0/plugins/, ...) took 320.865511ms
+[debug]   Load.apply: load took 1879.922306ms
+[debug]   Load.apply: resolveProjects took 5.877823ms
+[debug]   Load.apply: finalTransforms took 65.638943ms
+[debug]   Load.apply: config.delegates took 11.327325ms
+[debug]   Load.apply: Def.make(settings)... took 559.764329ms
+[debug]   Load.apply: structureIndex took 111.787212ms
+[debug]   Load.apply: mkStreams took 1.786312ms
+[info] loading global plugins from /Users/diakite/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 5648.283041ms
+[debug]           Load.loadUnit: plugins took 17.020337ms
+[debug]           Load.loadUnit: defsScala took 0.003743ms
+[debug] [Loading] Scanning directory /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.444923 ms
+[debug]               Load.resolveProject(formation_spark_idsi-build) took 1.164468ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id formation_spark_idsi-build, base: /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI/project, plugins: List(<none>))) took 4.24478ms
+[debug] [Loading] Done in /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI/project, returning: (formation_spark_idsi-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 6.843178ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.010977ms
+[debug]         Load.loadUnit(file:/Users/diakite/Downloads/Telegram%20Desktop/Formation_SPARK_IDSI/project/, ...) took 24.603614ms
+[debug]       Load.apply: load took 25.885244ms
+[debug]       Load.apply: resolveProjects took 0.1268ms
+[debug]       Load.apply: finalTransforms took 9.910085ms
+[debug]       Load.apply: config.delegates took 0.384839ms
+[debug]       Load.apply: Def.make(settings)... took 95.284747ms
+[debug]       Load.apply: structureIndex took 22.725285ms
+[debug]       Load.apply: mkStreams took 0.002905ms
+[info] loading project definition from /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 504.373228ms
+[debug]     Load.loadUnit: defsScala took 0.003882ms
+[debug] [Loading] Scanning directory /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI
+[debug]       Load.loadUnit: mkEval took 10.9747ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 6.712431 ms
+[info] loading settings for project formation_spark_idsi from build.sbt ...
+[debug]         Load.resolveProject(formation_spark_idsi) took 2.995484ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id formation_spark_idsi, base: /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI, plugins: List(<none>))) took 10.552018ms
+[debug] [Loading] Done in /Users/diakite/Downloads/Telegram Desktop/Formation_SPARK_IDSI, returning: (formation_spark_idsi)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3015.197726ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.45913ms
+[debug]   Load.loadUnit(file:/Users/diakite/Downloads/Telegram%20Desktop/Formation_SPARK_IDSI/, ...) took 3528.9246ms
+[debug] Load.apply: load took 3530.105297ms
+[debug] Load.apply: resolveProjects took 0.131518ms
+[debug] Load.apply: finalTransforms took 8.670122ms
+[debug] Load.apply: config.delegates took 0.305628ms
+[debug] Load.apply: Def.make(settings)... took 100.846924ms
+[debug] Load.apply: structureIndex took 22.756637ms
+[debug] Load.apply: mkStreams took 0.002658ms
+[info] set current project to Formation_SPARK_IDSI (in build file:/Users/diakite/Downloads/Telegram%20Desktop/Formation_SPARK_IDSI/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/diakite/.sbt/1.0/server/432d835a1832ad80071d/sock
+[debug] Writing bsp connection file
+[info] started sbt server
