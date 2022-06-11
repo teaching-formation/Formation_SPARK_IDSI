@@ -10,7 +10,12 @@ libraryDependencies ++= Seq(
 
   "org.apache.spark" %% "spark-core" % sparkVersion,
   "org.apache.spark" %% "spark-sql" % sparkVersion,
-  "org.apache.commons" % "commons-csv" % "1.1")
+  "org.apache.commons" % "commons-csv" % "1.1"
+
+
+
+
+)
 
 
 

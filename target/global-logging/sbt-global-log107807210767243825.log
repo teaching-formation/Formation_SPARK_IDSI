@@ -1,0 +1,12 @@
+[debug] > Exec(git branch -M dev/isaac_yao, None, None)
+[error] Expected ID character
+[error] Not a valid command: git (similar: exit, plugin, set)
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Not a valid key: git (similar: bgList, bgWaitFor, ivySbt)
+[error] git branch -M dev/isaac_yao
+[error]    ^
+[debug] > Exec(idea-shell, None, None)
+[warn] In the last 24010 seconds, 36.798 (0,2%) were spent in GC. [Heap: 0,06GB free of 0,12GB, max 1,33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.

@@ -1,0 +1,12 @@
+[debug] > Exec(; clean ; package, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 7 s, completed 11 juin 2022 11:01:43
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes ...
+[info] done compiling
+[success] Total time: 81 s (01:21), completed 11 juin 2022 11:03:04
+[debug] > Exec(idea-shell, None, None)

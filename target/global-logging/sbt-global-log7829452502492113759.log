@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\AGRIDEM\AppData\Local\Temp\idea1.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\AGRIDEM\AppData\Local\Temp\idea1.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_211)
+[debug]       Load.loadUnit: plugins took 1022.2927ms
+[debug]       Load.loadUnit: defsScala took 0.8333ms
+[debug] [Loading] Scanning directory C:\Users\AGRIDEM\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\AGRIDEM\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 47.6704 ms
+[debug]           Load.resolveProject(global-plugins) took 490.2388ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\AGRIDEM\.sbt\1.0\plugins, plugins: List(<none>))) took 808.8016ms
+[debug] [Loading] Done in C:\Users\AGRIDEM\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 940.1717ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.7318ms
+[debug]     Load.loadUnit(file:/C:/Users/AGRIDEM/.sbt/1.0/plugins/, ...) took 1986.7829ms
+[debug]   Load.apply: load took 13807.3476ms
+[debug]   Load.apply: resolveProjects took 17.0019ms
+[debug]   Load.apply: finalTransforms took 369.7575ms
+[debug]   Load.apply: config.delegates took 135.3184ms
+[debug]   Load.apply: Def.make(settings)... took 12236.087ms
+[debug]   Load.apply: structureIndex took 563.2996ms
+[debug]   Load.apply: mkStreams took 5.3582ms
+[info] loading global plugins from C:\Users\AGRIDEM\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 82543.9848ms
+[debug]           Load.loadUnit: plugins took 390.8706ms
+[debug]           Load.loadUnit: defsScala took 0.0094ms
+[debug] [Loading] Scanning directory C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI\project
+[debug]             Load.loadUnit: mkEval took 266.2239ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.826 ms
+[info] loading settings for project formation_spark_idsi-build from idea1.sbt ...
+[debug]               Load.resolveProject(formation_spark_idsi-build) took 20.576ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id formation_spark_idsi-build, base: C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI\project, plugins: List(<none>))) took 32.5358ms
+[debug] [Loading] Done in C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI\project, returning: (formation_spark_idsi-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2302.4274ms
+[debug]           Load.loadUnit: cleanEvalClasses took 174.4071ms
+[debug]         Load.loadUnit(file:/C:/Users/AGRIDEM/IdeaProjects/Formation_SPARK_IDSI/project/, ...) took 2871.3594ms
+[debug]       Load.apply: load took 2875.8451ms
+[debug]       Load.apply: resolveProjects took 0.3611ms
+[debug]       Load.apply: finalTransforms took 37.4306ms
+[debug]       Load.apply: config.delegates took 1.6034ms
+[debug]       Load.apply: Def.make(settings)... took 364.3377ms
+[debug]       Load.apply: structureIndex took 98.2201ms
+[debug]       Load.apply: mkStreams took 0.0045ms
+[info] loading project definition from C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 13352.0543ms
+[debug]     Load.loadUnit: defsScala took 0.0083ms
+[debug] [Loading] Scanning directory C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI
+[debug]       Load.loadUnit: mkEval took 0.7415ms
+[warn] In the last 120 seconds, 12.428 (10,4%) were spent in GC. [Heap: 0,20GB free of 0,27GB, max 1,33GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 10.3363 ms
+[info] loading settings for project formation_spark_idsi from build.sbt ...
+[debug]         Load.resolveProject(formation_spark_idsi) took 74.2823ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id formation_spark_idsi, base: C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI, plugins: List(<none>))) took 88.549ms
+[debug] [Loading] Done in C:\Users\AGRIDEM\IdeaProjects\Formation_SPARK_IDSI, returning: (formation_spark_idsi)
+[debug]     Load.loadUnit: loadedProjectsRaw took 31760.8557ms
+[debug]     Load.loadUnit: cleanEvalClasses took 170.7036ms
+[debug]   Load.loadUnit(file:/C:/Users/AGRIDEM/IdeaProjects/Formation_SPARK_IDSI/, ...) took 45286.4075ms
+[debug] Load.apply: load took 45292.1064ms
+[debug] Load.apply: resolveProjects took 0.3175ms
+[debug] Load.apply: finalTransforms took 210.5589ms
+[debug] Load.apply: config.delegates took 1.2465ms
+[debug] Load.apply: Def.make(settings)... took 468.6789ms
+[debug] Load.apply: structureIndex took 142.8033ms
+[debug] Load.apply: mkStreams took 0.0047ms
+[info] set current project to Formation_SPARK_IDSI (in build file:/C:/Users/AGRIDEM/IdeaProjects/Formation_SPARK_IDSI/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 60213 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 60213, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Formation_SPARK_IDSI (in build file:/C:/Users/AGRIDEM/IdeaProjects/Formation_SPARK_IDSI/)
+[debug] > Exec(idea-shell, None, None)
