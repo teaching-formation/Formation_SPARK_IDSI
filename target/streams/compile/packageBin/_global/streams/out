@@ -1,0 +1,27 @@
+[debug] Packaging C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\formation_spark_idsi_2.11-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	jobs
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs
+[debug] 	jobs\Formation1$$anonfun$1.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$anonfun$1.class
+[debug] 	jobs\Formation1$$anonfun$2.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$anonfun$2.class
+[debug] 	jobs\Formation1$$anonfun$3.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$anonfun$3.class
+[debug] 	jobs\Formation1$$anonfun$4.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$anonfun$4.class
+[debug] 	jobs\Formation1$$typecreator13$1.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$typecreator13$1.class
+[debug] 	jobs\Formation1$$typecreator17$1.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$typecreator17$1.class
+[debug] 	jobs\Formation1$$typecreator22$1.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$typecreator22$1.class
+[debug] 	jobs\Formation1$$typecreator5$1.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$typecreator5$1.class
+[debug] 	jobs\Formation1$.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$.class
+[debug] 	jobs\Formation1$delayedInit$body.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$delayedInit$body.class
+[debug] 	jobs\Formation1.class
+[debug] 	  C:\Users\sokei\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1.class
+[debug] Done packaging.
