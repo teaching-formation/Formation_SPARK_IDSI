@@ -1,24 +1,29 @@
 [debug] Created transactional ClassFileManager with tempDir = E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes.bak
 [debug] About to delete class files:
 [debug] 	Exercice1$delayedInit$body.class
+[debug] 	Exercice1$$anonfun$3.class
 [debug] 	Exercice1$$anonfun$1.class
 [debug] 	Formation1$delayedInit$body.class
 [debug] 	Formation1$.class
+[debug] 	Exercice1$$anonfun$2.class
 [debug] 	Formation1.class
 [debug] 	Exercice1$.class
 [debug] 	Exercice1.class
 [debug] 	Formation1$$anonfun$1.class
 [debug] We backup class files:
 [debug] 	Exercice1$delayedInit$body.class
+[debug] 	Exercice1$$anonfun$3.class
 [debug] 	Exercice1$$anonfun$1.class
 [debug] 	Formation1$delayedInit$body.class
 [debug] 	Formation1$.class
+[debug] 	Exercice1$$anonfun$2.class
 [debug] 	Formation1.class
 [debug] 	Exercice1$.class
 [debug] 	Exercice1.class
 [debug] 	Formation1$$anonfun$1.class
 [debug] Registering generated classes:
 [debug] 	Exercice1$delayedInit$body.class
+[debug] 	Exercice1$$anonfun$3.class
 [debug] 	Exercice1$$anonfun$1.class
 [debug] 	Formation1$delayedInit$body.class
 [debug] 	Formation1$.class

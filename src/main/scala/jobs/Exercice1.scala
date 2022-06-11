@@ -16,10 +16,10 @@ object Exercice1 extends App {
     .enableHiveSupport()
     .getOrCreate()
 
-  val loup = spark.read.textFile("fichiers/loup.txt")
+  val loup = spark.sparkContext.textFile("fichiers/loup.txt")
  /* println("Nombre de partitions : "+ loup.getNumPartitions)*/
   println("Prémière ligne du fichier : " +loup.first())
-  loup.collectAsList()
+  loup.foreach(f =>println(f))
   val moutonLines = loup.filter(line => line.contains("moutons"))
   moutonLines.foreach(f =>println(f))
   /*val loupSplit = loup.flatMap(f=>f.split(" "))
