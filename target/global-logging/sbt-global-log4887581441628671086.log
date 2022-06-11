@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(; clean; package, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(clean, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: clean[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 11 juin 2022 09:28:30[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(package, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / package[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/bilou/IdeaProjects/Formation_SPARK_IDSI/target/scala-2.11/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed 11 juin 2022 09:28:32[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

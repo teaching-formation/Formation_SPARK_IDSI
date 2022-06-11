@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/bilou/IdeaProjects/Formation_SPARK_IDSI/target/scala-2.11/formation_spark_idsi_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	jobs[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bilou/IdeaProjects/Formation_SPARK_IDSI/target/scala-2.11/classes/jobs[0m
+[0m[[0m[0mdebug[0m] [0m[0m	jobs/Formation1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bilou/IdeaProjects/Formation_SPARK_IDSI/target/scala-2.11/classes/jobs/Formation1$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	jobs/Formation1$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bilou/IdeaProjects/Formation_SPARK_IDSI/target/scala-2.11/classes/jobs/Formation1$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	jobs/Formation1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/bilou/IdeaProjects/Formation_SPARK_IDSI/target/scala-2.11/classes/jobs/Formation1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
