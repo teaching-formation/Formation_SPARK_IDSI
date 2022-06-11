@@ -2,12 +2,6 @@
 [debug] Input file mappings:
 [debug] 	jobs
 [debug] 	  C:\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs
-[debug] 	jobs\Formation1$$anonfun$1.class
-[debug] 	  C:\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$anonfun$1.class
-[debug] 	jobs\Formation1$$anonfun$2.class
-[debug] 	  C:\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$anonfun$2.class
-[debug] 	jobs\Formation1$$anonfun$3.class
-[debug] 	  C:\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$anonfun$3.class
 [debug] 	jobs\Formation1$.class
 [debug] 	  C:\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$.class
 [debug] 	jobs\Formation1$delayedInit$body.class
