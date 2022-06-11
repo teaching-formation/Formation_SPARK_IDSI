@@ -1,0 +1,35 @@
+[debug] > Exec(;clean;package, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 11 juin 2022 08:21:16
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes ...
+[info] Non-compiled module 'compiler-bridge_2.11' for Scala 2.11.12. Compiling...
+[info]   Compilation completed in 11.005s.
+[error] C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\src\main\scala\jobs\Formation1.scala:45:7: rdd is already defined as value rdd
+[error]   val rdd=spark.sparkContext.parallelize(data)
+[error]       ^
+[error] C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\src\main\scala\jobs\Formation1.scala:46:7: rdd2 is already defined as value rdd2
+[error]   val rdd2=rdd.reduceByKey(_ + _)
+[error]       ^
+[error] C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\src\main\scala\jobs\Formation1.scala:52:7: data is already defined as value data
+[error]   val data = Seq(("Java", "20000"), ("Python", "100000"),
+[error]       ^
+[error] C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\src\main\scala\jobs\Formation1.scala:54:7: rdd is already defined as value rdd
+[error]   val rdd = spark.sparkContext.parallelize(data)
+[error]       ^
+[error] C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\src\main\scala\jobs\Formation1.scala:57:7: dfFromRDD1 is already defined as value dfFromRDD1
+[error]   val dfFromRDD1 = rdd.toDF("language","users_count")
+[error]       ^
+[error] C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\src\main\scala\jobs\Formation1.scala:30:52: type mismatch;
+[error]  found   : String
+[error]  required: Ordering[?]
+[error]   val rdd4 = rdd.reduce( (a,b)=> ("min",a._2 min b._2))._2
+[error]                                                    ^
+[error] 6 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 18 s, completed 11 juin 2022 08:21:34
+[debug] > Exec(idea-shell, None, None)

@@ -1,0 +1,18 @@
+[debug] > Exec(;clean ; package, None, None)
+[warn] build source files have changed
+[warn] modified files: 
+[warn]   C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\build.sbt
+[warn] Apply these changes by running `reload`.
+[warn] Automatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.
+[warn] Disable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 11 juin 2022 12:27:10
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\UTC\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes ...
+[info] done compiling
+[success] Total time: 2 s, completed 11 juin 2022 12:27:11
+[debug] > Exec(idea-shell, None, None)
