@@ -1,0 +1,144 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Nhoura\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Nhoura\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_281)
+[debug]       Load.loadUnit: plugins took 130.3224ms
+[debug]       Load.loadUnit: defsScala took 0.4019ms
+[debug] [Loading] Scanning directory C:\Users\Nhoura\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Nhoura\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 16.0646 ms
+[debug]           Load.resolveProject(global-plugins) took 43.7744ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Nhoura\.sbt\1.0\plugins, plugins: List(<none>))) took 89.0484ms
+[debug] [Loading] Done in C:\Users\Nhoura\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 111.9186ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2437ms
+[debug]     Load.loadUnit(file:/C:/Users/Nhoura/.sbt/1.0/plugins/, ...) took 252.2688ms
+[debug]   Load.apply: load took 445.0923ms
+[debug]   Load.apply: resolveProjects took 8.7376ms
+[debug]   Load.apply: finalTransforms took 81.1094ms
+[debug]   Load.apply: config.delegates took 8.0027ms
+[debug]   Load.apply: Def.make(settings)... took 585.6319ms
+[debug]   Load.apply: structureIndex took 113.023ms
+[debug]   Load.apply: mkStreams took 2.0026ms
+[info] loading global plugins from C:\Users\Nhoura\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 127351.13ms
+[debug]           Load.loadUnit: plugins took 26.1975ms
+[debug]           Load.loadUnit: defsScala took 0.0022ms
+[debug] [Loading] Scanning directory D:\Formation_SPARK_IDSI\project
+[debug]             Load.loadUnit: mkEval took 7.6439ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Formation_SPARK_IDSI\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.1041 ms
+[info] loading settings for project formation_spark_idsi-build from idea.sbt ...
+[debug]               Load.resolveProject(formation_spark_idsi-build) took 3.1862ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id formation_spark_idsi-build, base: D:\Formation_SPARK_IDSI\project, plugins: List(<none>))) took 5.8418ms
+[debug] [Loading] Done in D:\Formation_SPARK_IDSI\project, returning: (formation_spark_idsi-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2804.0267ms
+[debug]           Load.loadUnit: cleanEvalClasses took 6.5295ms
+[debug]         Load.loadUnit(file:/D:/Formation_SPARK_IDSI/project/, ...) took 2837.4841ms
+[debug]       Load.apply: load took 2838.7424ms
+[debug]       Load.apply: resolveProjects took 0.1176ms
+[debug]       Load.apply: finalTransforms took 9.5422ms
+[debug]       Load.apply: config.delegates took 0.4379ms
+[debug]       Load.apply: Def.make(settings)... took 206.6933ms
+[debug]       Load.apply: structureIndex took 35.1813ms
+[debug]       Load.apply: mkStreams took 0.0031ms
+[info] loading project definition from D:\Formation_SPARK_IDSI\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 11071.3218ms
+[debug]     Load.loadUnit: defsScala took 0.0024ms
+[debug] [Loading] Scanning directory D:\Formation_SPARK_IDSI
+[debug]       Load.loadUnit: mkEval took 0.1696ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\Formation_SPARK_IDSI, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.087 ms
+[info] loading settings for project formation_spark_idsi from build.sbt ...
+[debug]         Load.resolveProject(formation_spark_idsi) took 47.9065ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id formation_spark_idsi, base: D:\Formation_SPARK_IDSI, plugins: List(<none>))) took 52.4259ms
+[debug] [Loading] Done in D:\Formation_SPARK_IDSI, returning: (formation_spark_idsi)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1653.9853ms
+[debug]     Load.loadUnit: cleanEvalClasses took 8.508ms
+[debug]   Load.loadUnit(file:/D:/Formation_SPARK_IDSI/, ...) took 12734.6905ms
+[debug] Load.apply: load took 12736.4758ms
+[debug] Load.apply: resolveProjects took 0.1669ms
+[debug] Load.apply: finalTransforms took 38.4952ms
+[debug] Load.apply: config.delegates took 0.422ms
+[debug] Load.apply: Def.make(settings)... took 138.2245ms
+[debug] Load.apply: structureIndex took 24.9592ms
+[debug] Load.apply: mkStreams took 0.0037ms
+[info] set current project to Formation_SPARK_IDSI (in build file:/D:/Formation_SPARK_IDSI/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 59649 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 59649, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to Formation_SPARK_IDSI (in build file:/D:/Formation_SPARK_IDSI/)
+[debug] > Exec(idea-shell, None, None)
