@@ -1,0 +1,13 @@
+[debug] > Exec(; clean ; package, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Forcing garbage collection...
+[success] Total time: 1 s, completed Jun 11, 2022 1:36:20 PM
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to D:\CONTENU\Hadoop\Github\Formation_SPARK_IDSI\target\scala-2.11\classes ...
+[info] done compiling
+[success] Total time: 5 s, completed Jun 11, 2022 1:36:25 PM
+[debug] > Exec(idea-shell, None, None)

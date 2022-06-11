@@ -1,8 +1,16 @@
 package jobs
 
 import org.apache.spark.sql.SparkSession
+// import com.typesafe.config.ConfigFactory
+import org.slf4j.LoggerFactory
+import org.apache.log4j.Level
+
 
 object Formation1 extends App {
+
+  val _LOGGER = LoggerFactory.getLogger(classOf[App])
+  org.apache.log4j.Logger.getLogger("org").setLevel(Level.OFF)
+  org.apache.log4j.Logger.getLogger("akka").setLevel(Level.OFF)
 
   val spark = SparkSession
     .builder()
@@ -10,7 +18,7 @@ object Formation1 extends App {
     .enableHiveSupport()
     .getOrCreate()
 
-  val dataSeq = Seq(("Java", "20000"), ("Python", "100000"), ("Scala", "3000"))
+  val dataSeq = Seq(("Java", 20000), ("Python", 100000), ("Scala", 3000))
 
   val rdd = spark.sparkContext.parallelize(dataSeq)
 
@@ -23,6 +31,8 @@ object Formation1 extends App {
   val rdd2 = rdd.map(f => { (f._2, (f._1,f._2))} )
 
   val rdd3 = rdd.sortByKey(false, 6)
+
+  val rdd3v = rdd.sortBy(_._2,false)
 
   val rdd4 = rdd.reduce( (a,b)=> ("min",a._2 min b._2))._2
 
@@ -42,7 +52,10 @@ object Formation1 extends App {
 
   val rdd5=spark.sparkContext.parallelize(data)
 
-  val rdd6=rdd.reduceByKey(_ + _)
+  val rdd6=rdd5.reduceByKey(_ + _)
 
   rdd6.foreach(println)
+
+  println("FIN DU JOB")
+
 }
