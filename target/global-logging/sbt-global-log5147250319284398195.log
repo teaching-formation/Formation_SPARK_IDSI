@@ -1,0 +1,16 @@
+[debug] > Exec(;clean;package, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 11 juin 2022 11:04:37
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to C:\Users\HP\IdeaProjects\Formation_SPARK_IDSI\target\scala-2.11\classes ...
+[error] C:\Users\HP\IdeaProjects\Formation_SPARK_IDSI\src\main\scala\jobs\Formation1.scala:45:7: data is already defined as value data
+[error]   val data = Seq(("Java", "20000"), ("Python", "100000"), ("Scala", "3000"))
+[error]       ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 2 s, completed 11 juin 2022 11:04:39
+[debug] > Exec(idea-shell, None, None)
