@@ -1,0 +1,13 @@
+[debug] > Exec(; clean ; package, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 11 juin 2022 14:19:08
+[debug] > Exec(package, None, None)
+[debug] Evaluating tasks: Compile / package
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes ...
+[info] done compiling
+[warn] multiple main classes detected: run 'show discoveredMainClasses' to see the list
+[success] Total time: 3 s, completed 11 juin 2022 14:19:11
+[debug] > Exec(idea-shell, None, None)

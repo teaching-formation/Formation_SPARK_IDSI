@@ -1,0 +1,23 @@
+[debug] Packaging E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\formation_spark_idsi_2.11-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	jobs
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs
+[debug] 	jobs\Exercice1$$anonfun$1.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Exercice1$$anonfun$1.class
+[debug] 	jobs\Exercice1$$anonfun$2.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Exercice1$$anonfun$2.class
+[debug] 	jobs\Exercice1$.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Exercice1$.class
+[debug] 	jobs\Exercice1$delayedInit$body.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Exercice1$delayedInit$body.class
+[debug] 	jobs\Exercice1.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Exercice1.class
+[debug] 	jobs\Formation1$$anonfun$1.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$$anonfun$1.class
+[debug] 	jobs\Formation1$.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$.class
+[debug] 	jobs\Formation1$delayedInit$body.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1$delayedInit$body.class
+[debug] 	jobs\Formation1.class
+[debug] 	  E:\IDSI-COURS\SEMESTRE2\Hadoop\Formation_SPARK_IDSI\target\scala-2.11\classes\jobs\Formation1.class
+[debug] Done packaging.
