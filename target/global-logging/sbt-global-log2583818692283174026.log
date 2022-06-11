@@ -1,0 +1,19 @@
+[debug] > Exec(; clean ; package*, None, None)
+[debug] > Exec(clean, None, None)
+[debug] Evaluating tasks: clean
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 0 s, completed 11 juin 2022 12:33:49
+[debug] > Exec(package*, None, None)
+[error] Expected ID character
+[error] Not a valid command: package
+[error] Expected project ID
+[error] Expected configuration
+[error] Expected ':'
+[error] Expected key
+[error] Expected whitespace character
+[error] Expected '/'
+[error] Expected '::'
+[error] Expected end of input.
+[error] package*
+[error]        ^
+[debug] > Exec(idea-shell, None, None)
