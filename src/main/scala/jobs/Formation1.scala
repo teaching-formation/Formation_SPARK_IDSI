@@ -10,5 +10,4 @@ object Formation1 extends App {
     .enableHiveSupport()
     .getOrCreate()
 
-
 }
